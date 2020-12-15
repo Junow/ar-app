@@ -47,6 +47,8 @@
 		D9E715B32589048500EA8FD4 /* ar-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E715B72589048500EA8FD4 /* ar_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_appUITests.swift; sourceTree = "<group>"; };
 		D9E715B92589048500EA8FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E715DF2589098500EA8FD4 /* ar-app copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ar-app copy-Info.plist"; path = "/Users/junow/Documents/lab/ar-app/ar-app copy-Info.plist"; sourceTree = "<absolute>"; };
+		D9E715F62589098F00EA8FD4 /* ar-app copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ar-app copy copy-Info.plist"; path = "/Users/junow/Documents/lab/ar-app/ar-app copy copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				D9E715AB2589048500EA8FD4 /* ar-appTests */,
 				D9E715B62589048500EA8FD4 /* ar-appUITests */,
 				D9E715962589048400EA8FD4 /* Products */,
+				D9E715F62589098F00EA8FD4 /* ar-app copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +102,7 @@
 			children = (
 				D9E715982589048400EA8FD4 /* AppDelegate.swift */,
 				D9E7159A2589048400EA8FD4 /* ContentView.swift */,
+				D9E715DF2589098500EA8FD4 /* ar-app copy-Info.plist */,
 				D9E7159C2589048400EA8FD4 /* Experience.rcproject */,
 				D9E7159E2589048500EA8FD4 /* Assets.xcassets */,
 				D9E715A32589048500EA8FD4 /* Info.plist */,
@@ -423,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ar-app/Preview Content\"";
+				DEVELOPMENT_TEAM = A6QZVNTL5U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ar-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ar-app/Preview Content\"";
+				DEVELOPMENT_TEAM = A6QZVNTL5U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "ar-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +468,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6QZVNTL5U;
 				INFOPLIST_FILE = "ar-appTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,6 +490,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6QZVNTL5U;
 				INFOPLIST_FILE = "ar-appTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

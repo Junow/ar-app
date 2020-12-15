@@ -10,7 +10,10 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        return VStack {
+            Text("123")
+            ARViewContainer().edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
@@ -19,15 +22,14 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
+        let boxAnchor = try! Experience.loadBox();
+        boxAnchor.steelBox?.scale = SIMD3(5,5,5);
+        boxAnchor.steelBox?.orientation = simd_quatf(angle: Float.pi/4,axis: SIMD3(1,1,0))
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
+        arView.backgroundColor = .orange
         arView.scene.anchors.append(boxAnchor)
         
         return arView
-        
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
